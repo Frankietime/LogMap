@@ -19,21 +19,16 @@ namespace LogisticMap
         {
             public double x0 { get; set; }
             public double xf { get; set; }
-            public double r0 { get; set; }
-            public double rf { get; set; }
+            public double R { get; set; }
             public int Decimals { get; set; }
             public int Iterations { get; set; }
 
 
-            public Ecuation(/*double iniX, double finX, double iniR, double finR, int decimals, int iterations*/)
+            public Ecuation()
             {
-                //Decimals = decimals;
-                //x0 = Math.Round(iniX, Decimals);
-                //xf = Math.Round(finX, Decimals);
-                //r0 = Math.Round(iniR, Decimals);
-                //rf = Math.Round(finR, Decimals);
-                //Iterations = iterations;
+
             }
+
             public void Run()
             {
                
@@ -44,8 +39,8 @@ namespace LogisticMap
                 xf = this.getXFInal();
 
                 Console.WriteLine("Ingrese R:");
-                r0 = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Ha ingresado el valor " + r0);
+                R = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Ha ingresado el valor " + R);
 
                 Console.WriteLine("Ingrese el nro de iteraciones:");
                 Iterations = Convert.ToInt32(Console.ReadLine());
@@ -57,8 +52,7 @@ namespace LogisticMap
 
                 x0 = Math.Round(x0, Decimals);
                 xf = Math.Round(xf, Decimals);
-                r0 = Math.Round(r0, Decimals);
-                //rf = Math.Round(rf, Decimals);
+                R = Math.Round(R, Decimals);
 
                 this.RunEcuation();
             }
@@ -79,16 +73,18 @@ namespace LogisticMap
             {
                 double[] plot = new double[20];
                 // Iterations R fijo
-                double r = r0;
+                double r = R;
                 Console.WriteLine("{0:N20} se redondea a {0}", x0);
                 Console.Read();
                 Console.WriteLine("Plots from x0 = " + x0 + " to xf = " + xf + " through " + Iterations + " Iterations");
                 Console.WriteLine("---------------------------------------------------------------");
                 Console.WriteLine("");
-                double sum = 1.0/(10^Decimals);
-                sum = Math.Round(sum, Decimals);
+                double incremental = 1 / (Math.Pow(10.0, Decimals));
+                Console.WriteLine("Cada iteracion incrementará a x en " + incremental);
+                
+                incremental = Math.Round(incremental, Decimals);
                 int iter = 0;
-                for (double x = x0; x <= xf; x+=sum)
+                for (double x = x0; x <= xf; x+=incremental)
                 {
                     double xt = x;
                     for (int j = 0; j < Iterations; j++)
