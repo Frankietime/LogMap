@@ -1,0 +1,10 @@
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\bin\Debug\LogisticMap.exe.config
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\obj\Debug\LogisticMap.csprojResolveAssemblyReference.cache
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\bin\Debug\LogisticMap.exe
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\bin\Debug\LogisticMap.pdb
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\obj\Debug\LogisticMap.exe
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\obj\Debug\LogisticMap.pdb
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\bin\Debug\LogisticMap.exe.manifest
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\bin\Debug\LogisticMap.application
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\obj\Debug\LogisticMap.exe.manifest
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\obj\Debug\LogisticMap.application

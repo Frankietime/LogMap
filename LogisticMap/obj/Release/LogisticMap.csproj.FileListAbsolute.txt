@@ -1,0 +1,9 @@
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\bin\Release\LogisticMap.exe.config
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\bin\Release\LogisticMap.exe.manifest
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\bin\Release\LogisticMap.application
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\bin\Release\LogisticMap.exe
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\bin\Release\LogisticMap.pdb
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\obj\Release\LogisticMap.exe.manifest
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\obj\Release\LogisticMap.application
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\obj\Release\LogisticMap.exe
+f:\usuarios\alumno\documentos\visual studio 2013\Projects\LogisticMap\LogisticMap\obj\Release\LogisticMap.pdb
